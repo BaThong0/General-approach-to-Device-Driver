@@ -1,0 +1,17 @@
+/dts-v1/;
+/plugin/;
+/ {
+	compatible = "brcm, bcm2835";
+	fragment@0 {
+		target = <&uart1>;
+		__overlay__ {
+			uartdev {
+				compatible = "fpc,fpc1020a";
+				current-speed = <19200>;
+				pinctrl-names = "default";
+				pinctrl-0 = <&uart1_pins>;
+				status = "okay";
+			};
+		};
+	};
+};

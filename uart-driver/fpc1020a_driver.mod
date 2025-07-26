@@ -1,0 +1,1 @@
+/home/pi/device_driver/10_fpc1020a/fpc1020a_driver.o
