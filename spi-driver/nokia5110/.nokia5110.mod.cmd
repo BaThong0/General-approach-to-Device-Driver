@@ -1,0 +1,1 @@
+cmd_/home/ton/Linux_Programming/Linux-Bringup-Drivers/spi-driver/nokia5110/nokia5110.mod := { echo  /home/ton/Linux_Programming/Linux-Bringup-Drivers/spi-driver/nokia5110/nokia5110.o;  echo; } > /home/ton/Linux_Programming/Linux-Bringup-Drivers/spi-driver/nokia5110/nokia5110.mod
